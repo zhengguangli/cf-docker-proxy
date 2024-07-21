@@ -7,17 +7,17 @@ const dockerHub = "https://registry-1.docker.io";
 
 const routes = {
   // production
-  "docker.libcuda.so": dockerHub,
-  "quay.libcuda.so": "https://quay.io",
-  "gcr.libcuda.so": "https://gcr.io",
-  "k8s-gcr.libcuda.so": "https://k8s.gcr.io",
-  "k8s.libcuda.so": "https://registry.k8s.io",
-  "ghcr.libcuda.so": "https://ghcr.io",
-  "cloudsmith.libcuda.so": "https://docker.cloudsmith.io",
-  "ecr.libcuda.so": "https://public.ecr.aws",
+  "docker.whoel.cloudns.biz": dockerHub,
+  "quay.whoel.cloudns.biz": "https://quay.io",
+  "gcr.whoel.cloudns.biz": "https://gcr.io",
+  "k8s-gcr.whoel.cloudns.biz": "https://k8s.gcr.io",
+  "k8s.whoel.cloudns.biz": "https://registry.k8s.io",
+  "ghcr.whoel.cloudns.biz": "https://ghcr.io",
+  "cloudsmith.whoel.cloudns.biz": "https://docker.cloudsmith.io",
+  "ecr.whoel.cloudns.biz": "https://public.ecr.aws",
 
   // staging
-  "docker-staging.libcuda.so": dockerHub,
+  "docker-staging.whoel.cloudns.biz": dockerHub,
 };
 
 function routeByHosts(host) {
